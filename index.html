@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Priscila Campos | Epilação Especializada</title>
 
 <style>
@@ -28,175 +29,90 @@ body{
  background:var(--bg);
  line-height:1.6;
 }
-.highlights{
-  margin: 16px auto 0;
-  max-width: 560px;
-  text-align: center;
-  color: var(--text);
-  font-size: 14px;
-  letter-spacing: .02em;
-  opacity: .9;
-}
 
-.highlights span{
-  margin: 0 10px;
-  opacity: .6;
-}
 /* ================= HERO ================= */
 
 .hero{
- max-width:1100px;
- margin:auto;
- padding:60px 22px 30px;
  text-align:center;
+ padding:60px 20px 30px;
 }
 
 .logo{
- width:170px;
+ max-width:140px;
+ opacity:.8;
  margin-bottom:18px;
 }
 
 h1{
- font-family:serif;
- font-size:48px;
+ font-size:38px;
  margin:10px 0;
  font-weight:500;
 }
 
-.lead{
- max-width:600px;
- margin:14px auto 24px;
+.subtitle{
+ max-width:520px;
+ margin:0 auto 28px;
  color:var(--text);
+ font-size:16px;
 }
 
-.btn{
+.button{
  display:inline-block;
- padding:14px 22px;
- border-radius:999px;
- text-decoration:none;
- border:1px solid var(--accent);
- color:var(--ink);
- margin:6px;
- transition:.25s;
-}
-
-.btn.primary{
  background:var(--accent);
  color:white;
- border:none;
-}
-
-.btn:hover{
- transform:translateY(-1px);
-}
-
-/* ================= SELOS ================= */
-
-.seals{
- display:flex;
- justify-content:center;
- gap:10px;
- flex-wrap:wrap;
- margin-top:18px;
-}
-
-.seal{
- padding:8px 14px;
+ padding:14px 28px;
  border-radius:999px;
- border:1px solid rgba(110,110,110,.2);
- background:rgba(255,255,255,.6);
- font-size:12px;
+ text-decoration:none;
+ font-size:15px;
 }
 
-.seal-main{
- background:rgba(204,173,175,.25);
- border-color:rgba(204,173,175,.45);
-}
+/* ================= HIGHLIGHTS ================= */
 
-/* ================= MENU PREVIEW ================= */
-
-.menuPeek{
- max-width:1000px;
- margin:40px auto;
- padding:0 22px;
-}
-
-.peekShell{
- background:white;
- border-radius:var(--radius);
- box-shadow:var(--shadow);
- overflow:hidden;
-}
-
-.peekTop{
- padding:16px;
- font-size:12px;
- letter-spacing:.1em;
- color:var(--text);
-}
-
-.peekRow{
- display:grid;
- grid-template-columns:1fr 1fr;
- gap:12px;
- padding:0 16px 18px;
-}
-
-.peekItem{
- display:flex;
- justify-content:space-between;
- background:var(--bg-soft);
- padding:12px 14px;
- border-radius:16px;
+.highlights{
+ margin:24px auto;
+ max-width:560px;
+ text-align:center;
  font-size:14px;
+ color:var(--text);
+ letter-spacing:.02em;
+}
+
+.highlights span{
+ margin:0 10px;
+ opacity:.8;
 }
 
 /* ================= MENU ================= */
 
 .section{
- max-width:1000px;
- margin:60px auto;
- padding:0 22px;
+ max-width:720px;
+ margin:40px auto;
+ padding:0 16px;
 }
 
-.menuWrap{
- background:white;
- padding:26px;
+.card{
+ background:#f3eee8;
+ padding:22px;
  border-radius:var(--radius);
  box-shadow:var(--shadow);
 }
 
-.menuWrap h2{
- margin-top:0;
- font-weight:500;
-}
-
-.menu{
- display:grid;
- grid-template-columns:1fr 1fr;
- gap:10px;
-}
-
-.menu div{
+.menu-item{
  display:flex;
  justify-content:space-between;
- padding:8px 0;
- border-bottom:1px solid #eee;
+ padding:14px 18px;
+ margin:10px 0;
+ background:#e8dfd6;
+ border-radius:16px;
 }
 
-/* ================= RODAPÉ ================= */
+/* ================= FOOTER ================= */
 
 footer{
  text-align:center;
- padding:40px 20px;
- color:var(--text);
  font-size:13px;
-}
-
-@media(max-width:780px){
- h1{font-size:36px}
- .menu{grid-template-columns:1fr}
- .peekRow{grid-template-columns:1fr}
+ color:var(--text);
+ padding:40px 20px;
 }
 
 </style>
@@ -210,78 +126,62 @@ footer{
 
 <h1>Priscila Campos</h1>
 
-<p class="lead">
+<p class="subtitle">
 Um atendimento privativo que une técnica e acolhimento.
 Ambiente calmo, tempo respeitado e orientações claras — para você relaxar com segurança e discrição.
 </p>
 
-<a class="btn primary"
-href="https://wa.me/5515992564265?text=Oi%2C%20Priscila!%20Quero%20agendar%20epila%C3%A7%C3%A3o.">
-Agendar agora
+<a class="button" href="SEU_LINK_CALENDLY_AQUI">
+Reservar meu horário (50% antecipado)
 </a>
 
-<div class="seals">
-.highlights{
-  margin: 16px auto 0;
-  max-width: 560px;
-  text-align: center;
-  color: var(--text);
-  font-size: 14px;
-  letter-spacing: .02em;
-  opacity: .9;
-}
-.highlights span{
-  margin: 0 10px;
-  opacity: .6;
-}
+<div class="highlights">
+<span>Atendimento privativo</span> •
+<span>Higiene & biossegurança</span> •
+<span>Orientação pré e pós</span>
 </div>
 
 </section>
-
-<div class="menuPeek">
- <div class="peekShell">
-  <div class="peekTop">
-   MENU DE EXPERIÊNCIA • uma prévia
-  </div>
-
-  <div class="peekRow">
-   <div class="peekItem"><b>Virilha completa</b><span>R$95</span></div>
-   <div class="peekItem"><b>Virilha simples</b><span>R$55</span></div>
-   <div class="peekItem"><b>Ânus</b><span>R$40</span></div>
-   <div class="peekItem"><b>Perna inteira</b><span>R$120</span></div>
-  </div>
- </div>
-</div>
 
 <section class="section">
- <div class="menuWrap">
+<div class="card">
 
-  <h2>MENU DE EXPERIÊNCIA</h2>
+<div class="menu-item">
+<span>Virilha completa</span>
+<strong>R$95</strong>
+</div>
 
-  <div class="menu">
+<div class="menu-item">
+<span>Virilha simples</span>
+<strong>R$55</strong>
+</div>
 
-   <div><span>Abdômen completo</span><strong>R$70</strong></div>
-   <div><span>Abdômen linha alba</span><strong>R$35</strong></div>
-   <div><span>Ânus</span><strong>R$40</strong></div>
-   <div><span>Axila</span><strong>R$39</strong></div>
-   <div><span>Barba</span><strong>R$50</strong></div>
-   <div><span>Braços completos</span><strong>R$65</strong></div>
-   <div><span>Buço</span><strong>R$25</strong></div>
-   <div><span>Dedos mãos e pés</span><strong>R$20</strong></div>
-   <div><span>Meia perna</span><strong>R$55</strong></div>
-   <div><span>Nariz</span><strong>R$25</strong></div>
-   <div><span>Ouvidos</span><strong>R$25</strong></div>
-   <div><span>Perna inteira</span><strong>R$120</strong></div>
-   <div><span>Peito</span><strong>R$50</strong></div>
-   <div><span>Queixo</span><strong>R$25</strong></div>
-   <div><span>Virilha completa</span><strong>R$95</strong></div>
-   <div><span>Virilha simples</span><strong>R$55</strong></div>
+<div class="menu-item">
+<span>Ânus</span>
+<strong>R$40</strong>
+</div>
 
-  </div>
+<div class="menu-item">
+<span>Perna inteira</span>
+<strong>R$120</strong>
+</div>
 
- </div>
+</div>
 </section>
 
+<footer>
+Sorocaba - SP • Segunda a sábado das 8h às 18h<br>
+Terça-feira e sábado até 15h30<br><br>
+© <span id="year"></span> Priscila Campos Epilação
+</footer>
+
+<script>
+document.getElementById("year").textContent =
+new Date().getFullYear();
+</script>
+
+</body>
+</html>
 <footer>
 Sorocaba - SP • Segunda a sábado das 8h às 18h<br>
 Terça-feira e sábado até 15h30<br><br>
